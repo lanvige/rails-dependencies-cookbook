@@ -2,11 +2,18 @@ package 'python-software-properties'
 # package ubuntu >= 12.10
 # package 'python-software-common'
 
-package 'curl'
-package 'libcurl3'
-package 'libcurl3-dev'
+package 'build-essential'
 
+package 'curl'
+package 'zlib1g-dev'
+package 'libcurl4-openssl-dev'
 package 'libssl-dev'
+package 'libreadline-dev'
+package 'libyaml-dev'
+package 'libxml2-dev'
+package 'libxslt1-dev'
+package 'libffi-dev'
+
 
 # mysql 2 gem
 # package 'libmysql-ruby'
